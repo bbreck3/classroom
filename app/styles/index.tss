@@ -1,0 +1,42 @@
+".login": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#message": {
+	font: {
+		fontSize: "50"
+	},
+	top:"50"
+	
+}
+"#un_label": {
+	font: {
+		fontSize: "50"
+	},
+	top:'60'
+	
+}
+"#pass_label": {
+	font: {
+		fontSize: "50"
+	},
+	top:"70"
+	
+}
+
+"#un_input":{
+	top:"60",
+	width:"20"	
+}
+
+
+"#pass_input":{
+	top:"70",
+	width:"20"	
+	}	

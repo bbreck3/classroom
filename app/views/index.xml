@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="login" backgroundColor="blue">
+		<Label id="message"> Please Login to Continue</Label> 
+		<Label id="un_label" textAlign="TI.UI.TEXT_ALIGNMENT_CENTER" onClick="doClick"> User Name: </Label> 
+		<Label id="pass_label" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"> Password </Label>
+		<TextField id="un_input"> </TextField>
+		<TextField id="pass_input"thht></TextField>
+ </Window>
+</Alloy>
