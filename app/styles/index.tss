@@ -1,42 +1,121 @@
-".login": {
+
+
+"Window":{
+	
+	
+	
+}
+
+
+".dash": {
 	backgroundColor:"white"
+
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
-"#message": {
-	font: {
-		fontSize: "50"
-	},
-	top:"50"
+"#course1":{
+	width:380,
+	height:300,
+	top:175,
+	left:5,
+	backgroundColor: "orange",
 	
-}
-"#un_label": {
-	font: {
-		fontSize: "50"
-	},
-	top:'60'
 	
-}
-"#pass_label": {
-	font: {
-		fontSize: "50"
-	},
-	top:"70"
 	
 }
 
-"#un_input":{
-	top:"60",
-	width:"20"	
+"#course2":{
+	width:380,
+	height:300,
+	top:175,
+	right:5,
+	
+	backgroundColor: "red",
+	
+	
+	
+}
+"#course3":{
+	width:380,
+	height:300,
+	top:450,
+	left:5,
+	
+	backgroundColor: "yellow",
+	
+	
+	
+}
+"#course4":{
+	width:380,
+	height:300,
+	top:450,
+	right:5,
+	
+	backgroundColor: "purple",
+	
+	
+	
+}
+"#info":{
+	width:800,
+	height:800,
+	top:850,
+	right:5,
+	textSize: 100,
+	backgroundColor: "green",
+	
+	
+	
 }
 
+"#welcome":{
+	width:800,
+	height:175,
+	top:5,
+	right:5,
+	textSize: 100,
+	backgroundColor: "white",
+	
+	
+	
+}
 
-"#pass_input":{
-	top:"70",
-	width:"20"	
-	}	
+/**"#tab1":{
+	width:190,
+	height:300,
+	top:750,
+	right:5,	
+	backgoundColor:"black",	
+}
+"#tab2":{
+	
+	
+	width:800,
+	height:800,
+	top:850,
+right:5,
+/*	width:190,
+	height:300,
+	top:750,
+	left:5,
+	backgoundColor:"black",	
+}*/
+
+
+"#updates":{
+	width:450,
+	height:100,
+	top:750,
+	left:5,
+	textSize:100,
+	backgroundColor:"white",
+}
+
+"#DueDates":{
+	width:450,
+	height:100,
+	top:750,
+	right:5,
+	textSize:100,
+	backgroundColor:"white",
+}
