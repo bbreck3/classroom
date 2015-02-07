@@ -1,16 +1,50 @@
 <Alloy>
-	<Window class="dash" backgroundColor="blue">
-		<View id="course1"> The </View>
+	<Window class="dash" >
+		
 		<View id="course2"> The </View>
 		<View id="course3"> The </View>
 		<View id="course4"> The </View>
-		<Label id="welcome" text="Welcome Student"> </Label>
-		<View id="info"></View>
+		
+		
+		<Label id="test" text="Welcome"></Label>
+	
+			<ImageView id ="course1" image="/images/download.jpg"/>
+			<ImageView id ="course2" image="/images/download.jpg"/>
+			<ImageView id ="course3" image="/images/download.jpg"/>
+			<ImageView id ="course4" image="/images/download.jpg"/>
+			<View id="weather_status" ></View>
+			<Label id="temperature" text="80"></Label>
+			<!-- Assignment Due -->
+			
+				
+				
+			<Label id="Updates" text="Welcome"></Label>
+		
+			<Label id="DueDates" text="Upcoming Assigments"></Label>
+			<Label id="assignment_1" color="black" text="Assignment 1"></Label>
+			
+			<Label id="assignment_2" color="black" text="Assignment 2"></Label>
+			
+			<Label id="assignment_3" color="black" text="Assignment 3"></Label>
+			
+			<Label id="assignment_4" color="black" text="Assignment 4"></Label>
+			
+			<!--   Announcements -->
+			
+			<Label id="announcement_1" color="black" text="Announcement 1"></Label>
+			
+			
+			<Label id="announcement_2" color="black" text="Announcement 2"></Label>
+			
+			<Label id="announcement_3" color="black" text="Announcement 3"></Label>
+			
+			<Label id="announcement_4" color="black" text="Announcement 4"></Label>
+			
+			
+		
 		<!--<View id="tab1"> </View>
 		<View id="tab2"> </View>-->
-		<Label id="updates" text="Announcements"></Label>
 		
-		<Label id="DueDates" text="Upcoming Assigments"> </Label>
 		
 	<!--<Window id="info">
 		 <TabGroup backgroundColor="white" id="info">
