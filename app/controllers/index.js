@@ -9,5 +9,10 @@ function doClick(e) {
  * 				It works fine without the "class.xml" but when adding the "class.xml" to the application neither "index.xml" nor "class.xmk" works
  * 
  */
-//$.class.open();
 $.index.open();
+/*for (i=0;i<10;i++){
+	var l = Alloy.createController('label').getView();
+	$.index.add(l);
+}*/
+//$.class.open();
+
