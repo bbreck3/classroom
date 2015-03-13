@@ -18,5 +18,4 @@
  * 				It works fine without the "class.xml" but when adding the "class.xml" to the application neither "index.xml" nor "class.xmk" works
  * 
  */
-
-//$.index.open();
+Alloy.Globals.container ="";

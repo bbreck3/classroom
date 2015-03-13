@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="dash">
+	<Window id="dash">
 		
 		<View id="course2"> The </View>
 		<View id="course3"> The </View>
@@ -10,7 +10,8 @@
 		<Label id="Updates" color="black" backgroundColor="yellow"  text="Welcome"></Label>
 		
 			<!-- Course Selection: Images that once click redirect to that specific course and its cub components -->
-			<ImageView id ="course1" image="/images/download.jpg"/>
+			<Button title="course1" id="course1"/>  -->			
+			<!--<View id ="course1" backgroundImage="/images/download.jpg"  /> --><!--image="/images/download.jpg"/> -->
 			<ImageView id ="course2" image="/images/download.jpg"/>
 			<ImageView id ="course3" image="/images/download.jpg"/>
 			<ImageView id ="course4" image="/images/download.jpg"/>
@@ -30,7 +31,7 @@
 			
 			<!--   Assignements -->
 			<!--  String to represent the assignments due-->
-			<View id="labels"> </View>
+			<!--<View id="labels"> </View>-->
 			
 			
 			<Label id="assignment_1" color="black"  text="Assignment 1"></Label>

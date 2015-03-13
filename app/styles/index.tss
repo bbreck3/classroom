@@ -16,7 +16,7 @@
  * 		All classes below
  * 
  */
-".dash": {
+"#dash": {
 	backgroundColor:"white"
 
 }
